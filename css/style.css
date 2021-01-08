@@ -1,0 +1,241 @@
+
+/************ global css section here *****/
+
+
+*{
+	margin:0;
+	padding:0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+/************ header css section here *****/
+header{
+	width: 100%;
+	padding: 50px 0px;
+	display: flow-root;
+
+}
+a{
+	text-decoration: none;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #818181;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+	color:#bc6ff1;
+}
+/************ main-post css section here *****/
+.main-post{
+	width: 100%;
+	display: flow-root;
+}
+.description{
+	padding: 70px;
+
+}
+.description h4{
+ font-family: 'Ubuntu', sans-serif;
+ color: #d9d6ce;
+ text-transform: uppercase;
+ font-size: 17px;
+font-weight: 300;
+margin: 10px;
+}
+.description h1{
+font-family: 'Playfair Display', serif;
+color: #626262;
+font-weight: 500;
+font-size: 30px;
+margin: 10px;
+
+}
+.description p{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	margin: 10px;
+
+}
+.description span{
+	 font-family: 'Ubuntu', sans-serif;
+	 color: #d9d6ce;
+
+	 margin: 10px;
+	 font-size: 17px;
+	 font-weight: 400;
+
+}
+/************ all css section here *****/
+.post{
+	width: 100%;
+	display: flow-root;
+
+}
+.gallery{
+	width: 100%;
+	float: left;
+	padding: 70px;
+}
+.left{
+	width: 46%;
+	float: left;
+	padding: 20px;
+}
+.right{
+	width: 46%;
+	float: left;
+	padding: 20px; 
+}
+.left h4,.right h4{
+ font-family: 'Ubuntu', sans-serif;
+ color: #d9d6ce;
+ text-transform: uppercase;
+ font-size: 17px;
+font-weight: 300;
+margin: 10px;}
+
+.left h1, .right h1{
+font-family: 'Playfair Display', serif;
+color: #626262;
+font-weight: 500;
+font-size: 30px;
+margin: 10px;}
+
+
+.left p, .right p{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	margin: 10px;}
+
+
+	/************ all post2 css section here *****/
+.post{
+	width: 100%;
+	display: flow-root;
+
+}
+.gallery2{
+	width: 100%;
+	float: left;
+	padding: 70px;
+}
+.left2{
+	width: 46%;
+	float: left;
+	padding: 20px;
+}
+.right2{
+	width: 46%;
+	float: left;
+	padding: 20px; 
+}
+.left2 h4,.right2 h4{
+ font-family: 'Ubuntu', sans-serif;
+ color: #d9d6ce;
+ text-transform: uppercase;
+ font-size: 17px;
+font-weight: 300;
+margin: 10px;}
+
+.left2 h1, .right2 h1{
+font-family: 'Playfair Display', serif;
+color: #626262;
+font-weight: 500;
+font-size: 30px;
+margin: 10px;}
+
+
+.left2 p, .right2 p{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	margin: 10px;}
+  
+
+
+
+
+
+  .newslatter{
+  	width: 100%;
+  	background-color: #f0f0f0 ;
+  	display: flow-root;
+  	padding: 60px 0px;
+
+  }
+  .signup{
+  	text-align: center;
+  }
+ .signup h1{
+font-family: 'Playfair Display', serif;
+color: #626262;
+font-weight: 400;
+font-size: 40px;
+margin: 10px;}
+  .signup input{
+  	font-family: 'Ubuntu', sans-serif;
+  	background-color: transparent;
+  	width: 30%;
+  	border: none;
+  	border-bottom: 2px solid black;
+  	padding: 20px 0px;
+
+  }
+  .signup input::placeholder{
+  		font-family: 'Ubuntu', sans-serif;
+  		color:black;
+  }
+
+   .signup input:focus {
+    	outline: : 0px;
+    }
+    /************ all post3 css end section here *****/
+  
+  .END{
+  
+  	width: 100%;
+  	background-color: #f0f0f0 ;
+  	display: flow-root;
+  	padding: 60px 0px;
+
+  }
+  .load-more{
+  	text-align: center;
+  }
+  .load-more input{
+  	font-family: 'Ubuntu', sans-serif;
+  	background-color: transparent;
+  	width: 25%;
+  	border:1px solid black;
+  	padding: 18px 0px;
+  	text-align: center;
+  	font-size: 30px;
+  	font-weight: 500;
+
+  }
